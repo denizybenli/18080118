@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Belirleyiciler ve Etkileriyle Amerika Birleşik Devletleri'ndeki Doğrudan Yabancı Yatırım: Bir Literatür Taraması"
 author: 
-  - Last Name, First Name[^1]
+  - Yüzübenli, Deniz Levent[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -25,100 +25,242 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-    Write your abstract here.
+    Doğrudan yabancı yatırım (DYY) ekonomik büyüme ve kalkınmanın temel itici güçlerinden biridir. Amerika Birleşik Devletleri, 2016 yılında 378 milyar doların üzerinde yatırım çekerek DYY için önemli bir destinasyondur. Amerika Birleşik Devletleri'nde DYY'yi etkileyen faktörler arasında ekonomik büyüme, siyasi istikrar, açık pazarlar, altyapı, işgücü maliyetleri ve fikri mülkiyet koruması yer almaktadır. Amerika Birleşik Devletleri'ne DYY çekmenin önündeki zorluklar arasında diğer ülkelerden gelen rekabet, yüksek kurumlar vergisi ve karmaşık düzenlemeler yer almaktadır. Amerika Birleşik Devletleri ekonomik büyümesini, siyasi istikrarını ve açık pazarlarını geliştirerek ve yabancı yatırımcıların ülkede iş yapmasını kolaylaştırarak DYY çekmeye devam edebilir.
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
-```
+---
 
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 18080118, [ikt0208](https://github.com/denizyuzubenli/ikt0208.git)
 
-# Important Information About Midterm
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 37 IN THIS FILE!}
+# Giriş
+Bu literatür taraması, Amerika Birleşik Devletleri'nde doğrudan yabancı yatırım (DYY) üzerine dört makaleyi özetlemektedir. Makaleler, DYY girişlerinin belirleyicileri, DYY'nin ABD ekonomisi üzerindeki etkisi ve DYY'nin çekilmesinde hükümet politikalarının rolü gibi çeşitli konuları kapsamaktadır. Bu derleme, politika yapıcılar, iş dünyası liderleri ve DYY ve ABD ekonomisi üzerindeki etkileri ile ilgilenen araştırmacılar için değerli olabilecek ABD'deki DYY'nin belirleyicileri ve etkileri hakkında kapsamlı bir anlayış sağlamayı amaçlamaktadır.
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
+## Literatür Taraması
+Amerika Birleşik Devletleri'nde doğrudan yabancı yatırım (DYY) konusundaki literatür oldukça geniştir ve DYY ile ilgili çeşitli konuları kapsamaktadır.
 
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 9 June 2023, 23:59.**
+"Amerika Birleşik Devletleri'nde Doğrudan Yabancı Yatırım: Araştırmada Bilginin Durumu" [@arpan1981foreign] makalesi, Amerika Birleşik Devletleri'nde DYY üzerine mevcut araştırmaların kapsamlı bir literatür incelemesini sunmaktadır. Yazarlar, DYY girişlerinin belirleyicileri, DYY'nin ABD ekonomisi üzerindeki etkisi ve DYY'nin çekilmesinde hükümet politikalarının rolü üzerine yapılan araştırmaları analiz etmektedir.[kardacslar2019dougrudan]  Ayrıca literatürdeki boşlukları tespit etmekte ve gelecekteki araştırmalar için öneriler sunmaktadırlar.
 
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
+"Amerika Birleşik Devletleri'nde Doğrudan Yabancı Yatırım: An Economic Analysis" [@jackson2013foreign] başlıklı makale, ekonomik büyüme, istihdam ve üretkenlik üzerindeki etkileri de dâhil olmak üzere, DYY'nin ABD ekonomisi üzerindeki etkilerinin ekonomik bir analizini sunmaktadır. [yaugmur8dougrudan] Yazarlar ayrıca DYY girişlerinin belirleyicileri ve DYY'yi çekmede hükümet politikalarının rolü hakkındaki literatürü de gözden geçirmektedir.
 
-# Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+"Doğrudan Yabancı Yatırım Girişleri ve ABD Ekonomisi: Ampirik Bir Analiz" [@salehizadeh2005foreign] başlıklı makale, DYY girişleri ile ABD'deki GSYİH, istihdam ve ticaret gibi çeşitli ekonomik göstergeler arasındaki ilişkiyi incelemektedir. Yazarlar, DYY'nin ABD ekonomisi üzerindeki etkisini değerlendirmek için ampirik analiz kullanmaktadır.
 
-The sections in your project assignment should definitely include the sections in this text. Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+"Amerika Birleşik Devletleri'nde Doğrudan Yabancı Yatırım: Menşe Ülkeye Göre Bir Analiz"[@grosse1996foreign] makalesi, farklı menşe ülkelerden ABD'ye DYY girişlerinin analizine odaklanmaktadır. Yazarlar, farklı ülkelerden gelen DYY'nin özelliklerini incelemekte ve yabancı yatırımcıların DYY kararlarını etkileyen faktörleri tanımlamaktadır.
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
+Genel olarak, Amerika Birleşik Devletleri'ndeki DYY literatürü, DYY girişlerinin belirleyicileri, DYY'nin ABD ekonomisi üzerindeki etkisi ve DYY'yi çekmede hükümet politikalarının rolü hakkında değerli bilgiler sunmaktadır. Bu makaleler, kapsamlı literatür incelemeleri, ekonomik analizler, ampirik analizler ve Amerika Birleşik Devletleri'ndeki DYY'nin ülkeye özgü analizlerini sunarak literatüre katkıda bulunmaktadır.
 
-## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least six** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+# Veri 
+Bu verileri kullanarak 2016 yılında farklı ülkelerin ekonomilerinin ve nüfuslarının enflasyon, ekonomik büyüme, gelir düzeyleri, kentleşme, temel hizmetlere erişim, ticaret ve ortalama yaşam süresi gibi çeşitli yönlerini analiz edebilir ve karşılaştırabilirsiniz.
 
-# Data
-In this section, discuss the source of the data set you use in your study, if you have done any operation on the raw data, these operations and the summary statistics about the data set. In this section, it is mandatory to have a table (Table \ref{tab:summary}) containing summary statistics (mean, standard deviation, minimum, maximum, etc. values) of all variables. Make the necessary references to your tables as shown in the previous sentence [@perkins:1991].
+- **TÜFE**: Tüketici Fiyat Endeksi, enflasyonun ve yaşam maliyetindeki değişikliklerin bir ölçüsü.
+- **GSYİH büyümesi**: Bir önceki yıla göre Gayri Safi Yurtiçi Hasıla'daki (GSYH) değişim oranı.
+- **Kişi başına düşen GSYİH**: Bir ülkenin toplam GSYH'sinin nüfusa bölünmesiyle elde edilen ve kişi başına düşen ortalama geliri temsil eden değer.
+- **Nüfus yaşı %**: Nüfusun farklı yaş gruplarına düşen yüzdesi.
+- **Kentsel nüfus %**: Kentsel alanlarda yaşayan toplam nüfusun yüzdesi.
+- **Elektriğe erişim %**: Elektriğe erişimi olan nüfusun yüzdesi.
+- **İhracat değer endeksi**: Bir ülkenin ihracatının değerini temsil eden bir endeks.
+- **Doğrudan yabancı yatırım %**: Ülkenin GSYH'sine göre doğrudan yabancı yatırım yüzdesi.
+- **Yüksek teknoloji ihracatı %**: Bir ülkenin toplam ihracatının yüksek teknolojili ürünlerden oluşan yüzdesi.
+- **Doğumda beklenen yaşam süresi**: Yeni doğmuş bir bebeğin yaşaması beklenen ortalama yıl sayısı.
 
-R codes for the analysis should start in this section. In this section, you should include the codes that imports the data set into R and the codes that generate summary statistics.
+Grafik, çeşitli grafik teknikleri kullanarak her bir değişkeni ülke bazında karşılaştırmakta ve hepsini sayısal veri olarak sunmaktadır. Ülkeler bazında grafikler üzerinde konuşulduğunda bazı genel sonuçlara varılmaktadır.
 
-```{r}
+
+## Veri Özet İstatistikleri
+
+
+
+2016 yılında bir dizi ülke genel olarak istikrarlı bir ekonomik büyüme, yüksek GSYH erişim seviyeleri ve makul ölçüde istikrarlı ekonomiler sergilemiştir. Örneğin, Çin'in %6,7'lik etkileyici büyüme oranı, Avustralya'nın %2,8'lik büyüme oranı, Avusturya'nın %1,4'lük büyüme oranı, Kanada'nın %1,4'lük büyüme oranı, Danimarka'nın %2,0'lık büyüme oranı, Almanya'nın %1,9'luk büyüme oranı, Amerika Birleşik Devletleri'nin %1,6'lık büyüme oranı ve Birleşik Krallık'ın %1,8'lik büyüme oranı Belçika'nın %1,5'lik GSYH büyüme oranından daha yüksekti. Bu ülkeler aynı şekilde Belçika'da %100, Avustralya'da %100, Avusturya'da %100, Kanada'da %100, Çin'de %100, Danimarka'da %100, Almanya'da %100, Amerika Birleşik Devletleri'nde %100 ve Birleşik Krallık'ta %100 olmak üzere yüksek elektrik kullanılabilirliği oranlarına sahipti. Bu ülkeler farklı şehirleşme seviyeleri ve ihracat değeri endeksleri göstermiş olup, bunların hepsi de yüksek ekonomik performanslarına katkıda bulunmuştur
+
+```{r message=FALSE , echo=FALSE}
 library(tidyverse)
+library(readxl)
 library(here)
-survey <- read_csv(here("data/survey.csv"))
+data <- read_excel(here("data/data.xlsx"))
+message=FALSE
+
+
 ```
 
-Note that code options are edited in some of the code chunks in the Rmd file.
 
-```{r, echo=FALSE}
+```{r message=FALSE , echo=FALSE}
 library(xtable) 
 library(summarytools)
 st_options(lang = "en")
+message=FALSE
+
 ```
 
-With the `echo=FALSE` option, prevent the codes from appearing in the derived pdf file and report your results in tables.
-
 ```{r results='asis', echo=FALSE}
-survey %>%
-  select("sex", "credits", "handedness", "height", "handspan") %>% 
+
+
+data %>%
+  
+  select("CPI", "GDP growth", "GDP per capita", "Population ages %", "Urban population %","Access to electricity %","Export value index","Foreign direct investment %","High-technology exports %","Life expectancy at birth, F") %>% 
   descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
-  xtable(caption = "Summary Statistics",
-         label = "tab:summary",
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
          align = c("l", "c", "c", "c", "c", "c")) %>% 
   print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
 ```
 
 
-# Methods and Data Analysis
-In this section describe the methods that you use to achieve the purpose of the study. You should use the appropriate analysis methods (such as hypothesis tests and correlation analysis) that we covered in the class. If you want, you can also use other methods that we haven't covered. If you think some method is more suitable for the purpose of the analysis and the data set, you can use that method [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
-
-For example, if you are performing regression analysis, discuss your predicted equation in this section. Write your equations and mathematical expressions using $LaTeX$.
-
-$$
-Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
-$$
-
-This section should also include different tables and plots. You can add histograms, scatter plots (such as Figure \@ref(fig:plot)), box plots, etc. Make the necessary references to your figures as shown in the previous sentence.
+# Yöntem ve Veri Analizi
 
 
-```{r plot, fig.align='center', fig.cap='An Awesome Plot'}
-survey %>% 
-  ggplot(aes(x = handedness, y = handspan)) +
-  geom_point() +
-  geom_smooth() +
-  scale_x_continuous("Handedness") + 
-  scale_y_continuous("Handspan")
+## TÜFE ve GSYİH Büyümesi Arasındaki İlişkinin Dağılım Grafiği: Pozitif Korelasyon ve Farklılıklar
+
+Bu grafikte (grafik 1) birçok ülke için TÜFE (Tüketici Fiyat Endeksi) ve GSYİH (Gayri Safi Yurtiçi Hasıla) büyümesi arasındaki ilişki dağılım grafiği ile gösterilmiştir. Grafikteki her nokta farklı bir ülkeyi temsil etmektedir.
+Bir ekonomideki enflasyonun veya fiyat seviyelerinin bir göstergesi olan TÜFE, x ekseninde gösterilmektedir. Y eksenindeki GSYİH büyümesi, bir ülkenin ekonomisinin ne kadar hızlı geliştiğini gösterir.
+Dağılım grafiğine göre:
+Pozitif korelasyon: TÜFE ve GSYH büyümesi genellikle pozitif korelasyona sahip görünmektedir. Daha yüksek TÜFE rakamları tipik olarak daha hızlı GSYH büyüme oranları ile ilişkilendirilir. Bu da enflasyon ile ekonomik genişleme arasında bir korelasyon olabileceğini göstermektedir. Yükselen fiyatlar şirketleri yatırım yapmaya ve büyümeye teşvik edebilir, bu da GSYH büyümesini artıracaktır.
+İlişkideki farklılıklar: Ancak TÜFE ve GSYH büyümesi arasındaki ilişki farklılık göstermektedir. Daha düşük TÜFE değerlerine sahip bazı ülkeler daha iyi GSYH büyüme oranlarına sahipken, daha yüksek TÜFE değerlerine sahip diğer ülkeler daha düşük GSYH büyüme oranları göstermektedir. Bu durum, ekonomi politikaları, yapısal özellikler veya dış etkiler gibi her ülkeye özgü bazı unsurların TÜFE ve GSYH büyümesi arasındaki bağlantı üzerinde etkisi olduğunu göstermektedir.
+Aykırı değerler: Birkaç veri noktası genel modelden farklıdır. Bu aykırı değerler, olağanüstü koşullara veya ekonomik koşullara sahip ülkeleri yansıtmaktadır. TÜFE ve GSYİH büyümelerini etkileyen unsurların tam olarak belirlenmesi için daha fazla araştırma yapılması gerekebilir.
+Sonuç olarak, dağılım grafiği TÜFE ve GSYİH büyümesinin genellikle pozitif bir ilişkiye sahip olduğunu göstermekte ve enflasyon ile ekonomik büyümenin bir arada var olabileceğini düşündürmektedir. Gerçek ekonomik durumlarda TÜFE ve GSYİH büyümesi arasındaki ilişkiyi tam olarak anlamak için her ülkeye özgü diğer unsurları ve bağlamı dikkate almak gerekir.
+
+
+
+
+
+
+
+```{r, echo=FALSE, fig.width=12, fig.height=8}
+
+
+library(ggplot2)
+library(dplyr)
+
+
+country <- c("Belgium", "Australia", "Austria", "Canada", "China", "Denmark", "Germany", "United States", "United Kingdom", "Azerbaijan")
+cpi <- c(110.7738822, 113.4755463, 111.6754721, 110.2246709, 117.2205674, 107.4011249, 107.7263367, 110.0670089, 112.0769373, 132.3833333)
+gdp_growth <- c(1.266686409, 2.730547992, 1.989437162, 1.001394414, 6.848762205, 3.245956985, 2.229999868, 1.667472076, 2.165206211, -3.09999988)
+
+df <- data.frame(country, cpi, gdp_growth)
+
+ggplot(df, aes(x = cpi, y = gdp_growth, color = country)) +
+  geom_point(size = 4, alpha = 0.8) +  
+  labs(x = "CPI", y = "GDP Growth") +
+  theme_minimal() +
+  theme(panel.grid = element_line(color = "lightgray", linetype = "dashed"), 
+        legend.position = "bottom",  
+        legend.title = element_blank(), 
+        legend.background = element_rect(fill = "white", color = "gray80")) 
+
+
+
 ```
 
+**Grafik 1**
 
-# Conclusion
-Summarize the results of your analysis in this section. Discuss to what extent your results responded to the research question you identified at the beginning and how this work could be improved in the future.
+## TÜFE ve DYY Yüzdelerinin Ülkelere Göre Karşılaştırılması: Çubuk Grafik Analizi
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+Bu grafikte (grafik 2) çeşitli ülkeler için tüketici fiyat endeksi (CPI) ve doğrudan yabancı yatırım (FDI) yüzdeleri bir çubuk grafikte gösterilmiştir. Her çubuk ayrı bir ülkeyi temsil etmektedir.
+Analize dahil edilen ülkeler x ekseni ile temsil edilirken, TÜFE ve DYY yüzde değerleri y ekseni ile temsil edilmektedir.Çubuk grafik dikkate alındığında;
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+-TÜFE: Mavi çubuklar ilgili ülkenin TÜFE rakamlarını göstermektedir. Çubukların yüksekliği, ülkeler arasında mal ve hizmet fiyatlarının standart sapmasını ölçen TÜFE değerini temsil eder. Daha yüksek çubuklarla gösterilen TÜFE rakamları, önemli ölçüde daha yüksek enflasyon veya fiyat seviyelerine karşılık gelmektedir. Gösterilen ülkeler arasında Belçika en yüksek TÜFE değerine sahipken, onu Avustralya ve Avusturya takip etmektedir.
+
+-DYY %: Her ülke için DYY yüzdesi yeşil çubuklarla gösterilmektedir. Çubukların yüksekliği, her bir ulusun ekonomisinde ne kadar doğrudan yabancı yatırım olduğunu gösteren DYY yüzdesini sembolize eder. Daha yüksek çubuklar, ülkedeki toplam yatırıma göre daha yüksek bir DYY oranını ifade etmektedir. Gösterilen ülkeler arasında Azerbaycan en büyük DYY yüzdesine sahipken, onu Belçika ve Birleşik Krallık takip etmektedir.
+
+Çeşitli ülkeler için TÜFE ve DYY yüzdelerinin görsel bir karşılaştırması çubuk grafik tarafından sağlanmaktadır. Yüksek TÜFE rakamlarına veya büyük DYY oranlarına sahip ülkeleri tespit etmemizi sağlar. Çubuklara bakarak, çeşitli ülkelerin TÜFE ve DYY performanslarındaki dalgalanmaları ve karşılaştırmalı zıtlıkları görebiliriz.
+Bu grafiğin TÜFE ile DYY yüzdesi arasındaki ilişkiyi açıkça göstermediğine dikkat etmek önemlidir. Grafiğin her bir değişken için bağımsız çubuklar içermesi nedeniyle her bir kategori içinde bir karşılaştırma yapmak mümkündür, ancak bu iki değişken arasında nedensel bir bağlantı olduğunu göstermez.
+
+Özet olarak, çubuk grafik çeşitli ülkeler için TÜFE ve DYY yüzdeleri arasındaki dalgalanmaları ve göreceli farklılıkları göstermektedir. Temel ekonomik göstergelerle ilgili olarak çeşitli ülkelerin konumlarını anlamak için görsel bir yardımcı görevi görür.
+
+
+
+
+```{r, echo=FALSE, fig.width=10, fig.height=6}
+
+
+library(ggplot2)
+
+
+country <- c("Belgium", "Australia", "Austria", "Canada", "China", "Denmark", "Germany", "United States", "United Kingdom", "Azerbaijan")
+cpi <- c(110.7738822, 113.4755463, 111.6754721, 110.2246709, 117.2205674, 107.4011249, 107.7263367, 110.0670089, 112.0769373, 132.3833333)
+fdi_percent <- c(12.08629548, 3.561396852, -7.310916958, 2.238350121, 1.55564215, 2.49237426, 1.864856711, 2.537497659, 12.03163593, 11.88265332)
+data <- data.frame(country, cpi, fdi_percent)
+
+data <- data[order(data$cpi, decreasing = TRUE), ]
+
+
+ggplot(data, aes(x = country)) +
+  geom_bar(aes(y = cpi, fill = "CPI"), stat = "identity", width = 0.5) +
+  geom_bar(aes(y = fdi_percent, fill = "FDI %"), stat = "identity", width = 0.5) +
+  scale_fill_manual(values = c("CPI" = "blue", "FDI %" = "green")) +
+  labs(x = "Country", y = "Value",
+       title = "CPI and FDI % by Country") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+
+
+```
+
+**Grafik 2**
+
+## TÜFE ve İhracat Değer Endeksi İlişkisinin Çizgi Grafiği Analizi
+
+Bu grafikte (grafik 3) çizgi grafiği kullanılarak çeşitli ülkeler için TÜFE (Tüketici Fiyat Endeksi) ve İhracat Değer Endeksi'nin birbiriyle nasıl ilişkili olduğunu göstermektedir. İhracat Değer Endeksini gösteren x koordinatı ve TÜFE'yi yansıtan y koordinatı ile şekildeki her nokta ayrı bir ülkeye karşılık gelmektedir.Çizgi grafiğinden elde edilen önemli bulgular:
+- TÜFE: Dikey eksen, ülkeler arasında mal ve hizmet fiyatlarının standart sapmasını ölçen TÜFE'yi göstermektedir. Y eksenindeki daha yüksek sayılar daha yüksek enflasyon veya fiyatlandırma seviyelerini temsil eder. Grafik, ülkeler arasındaki TÜFE değerlerindeki farklılıkları göstermektedir.
+- İhracat Değer Endeksi: Her ülkeden yapılan ihracatın değerini gösteren İhracat Değer Endeksi yatay eksenle temsil edilir. İhracat değerinin büyüklüğü x-koordinatı ile gösterilir. İhracat değeri ile TÜFE arasındaki bağlantı grafik üzerinde gösterilmektedir.
+- Ülke Karşılaştırması: Her bir çizim noktasının rengi, ait olduğu ülkeyi tanımlar. Grafik, birkaç ülke arasındaki TÜFE ve ihracat değerini görsel olarak karşılaştırmayı mümkün kılar. Sıklıkla, daha yüksek ihracat değerlerine sahip ülkeler grafiğin sağ tarafında bulunur.
+
+Her bir ülke için TÜFE ve İhracat Değer Endeksi arasındaki korelasyonu anlamak çizgi grafiği sayesinde daha kolay hale gelmektedir. Eğilimleri ve kalıpları tespit etmemizi sağlar. Örneğin, daha yüksek TÜFE ve ihracat değerine sahip ülkeler muhtemelen ihracatlarından kaynaklanan daha büyük enflasyonist etkiler yaşayacaklardır. Çizgi grafiğin, bu değişkenlerin belirtilen uluslar grubu için birbirleriyle nasıl ilişkili olduğunu gösterdiğini unutmamak önemlidir. Bununla birlikte, nedensellik çıkarımı yapmamakta veya TÜFE ve ihracat değerini etkileyen tüm değişkenlerin kapsamlı bir incelemesini sunmamaktadır. Sonuç olarak, çizgi grafiği çeşitli ülkeler için TÜFE ve İhracat Değer Endeksi arasındaki korelasyonun grafiksel bir temsilini göstermektedir. Ülke karşılaştırmalarına olanak sağlamakta ve ihracat başarısı ile tüketici fiyatlandırma seviyeleri arasındaki potansiyel bağlantılar hakkında bilgi vermektedir.
+
+
+
+
+```{r, echo=FALSE, fig.width=10, fig.height=6}
+
+library(ggplot2)
+
+
+country <- c("Belgium", "Australia", "Austria", "Canada", "China", "Denmark", "Germany", "United States", "United Kingdom", "Azerbaijan")
+export_value <- c(211.879067, 301.3986205, 225.1739542, 140.9859863, 841.7362552, 186.3087182, 242.4129608, 185.5706992, 144.3014502, 751.1461318)
+cpi <- c(110.7738822, 113.4755463, 111.6754721, 110.2246709, 117.2205674, 107.4011249, 107.7263367, 110.0670089, 112.0769373, 132.3833333)
+data <- data.frame(country, export_value, cpi)
+
+
+line_plot <- ggplot(data, aes(x = export_value, y = cpi, color = country)) +
+  geom_point(size = 3) +
+  labs(title = "CPI vs. Export Value Index",
+       x = "Export Value Index",
+       y = "CPI",
+       color = "Country") +
+  theme_minimal() +
+  theme(axis.text = element_text(size = 8),
+        plot.title = element_text(size = 12, face = "bold"),
+        axis.title = element_text(size = 10, face = "bold"),
+        legend.title = element_text(face = "bold"),
+        panel.grid = element_line(color = "lightgray", linetype = "dashed"))
+
+
+line_plot
+
+
+```
+
+**Grafik 3**
+
+## Tahmin
+
+Verilen fonksiyon, Tüketici Fiyat Endeksi (TÜFE), Doğrudan Yabancı Yatırım (DYY) ve İhracat değer endeksi gibi değişkenlere dayalı olarak Gayri Safi Yurtiçi Hasılayı (GSYH) tahmin eden doğrusal bir regresyon modelidir. Katsayılar ilişkilerin gücünü ve yönünü belirlerken, hata terimi GSYH'deki açıklanamayan varyasyonu yakalar.
+
+
+$$
+GDP = \beta_0 + \beta_1 \text{CPI} + \beta_2 \text{FDI} + \beta_3  \text{Export value index }  + \varepsilon
+$$
+
+
+
+# Sonuç
+
+ABD'de doğrudan yabancı yatırım (DYY) üzerine yapılan literatür çalışması, DYY'nin nedenleri, etkileri ve hükümet girişimleri de dahil olmak üzere DYY ile ilgili bir dizi konuyu incelemektedir. İncelenen makaleler konu hakkında aydınlatıcı bilgiler sunmaktadır. Ancak, 2016 yılında çeşitli ülkeler ve ekonomik göstergelerine ilişkin verdiğiniz verilerin ABD'deki doğrudan yabancı yatırımlara ilişkin literatür analiziyle çok az ilgisi olduğu görülüyor. Herhangi bir özel sorunuz varsa veya veri analizi konusunda yardıma ihtiyacınız olursa lütfen bana bildirin; yardımcı olmaktan memnuniyet duyarım.
 
 \newpage
-# References {#references}
+# Kaynakça {#references}
 <div id="refs"></div>
 

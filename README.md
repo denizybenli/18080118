@@ -1,78 +1,89 @@
 ------------------------------------------------------------------------
 
-## About Term Project
+## Dönem Projesi Hakkında
 
-**Prepare a report with RMarkdown in RStudio by selecting a data set
-(any data set).**
+**Bir veri seti (herhangi bir veri seti) seçerek RStudio’da RMarkdown
+ile bir rapor hazırlayın.**
 
--   Term project will be the analysis of a data set you choose.
+-   Dönem projesi sizin seçtiğiniz bir veri setinin analizinden
+    oluşacaktır.
 
--   The data set can be an existing data or you can collect data by
-    conducting a survey. If you choose to conduct your own survey please
-    make sure that you ask the appropriate questions to collect
-    different types of data.
+-   Veri seti halihazırda var olan bir veri olabileceği gibi anket
+    yaparak da veri toplayabilirsiniz. Eğer anket yolu ile veri
+    toplamayı seçerseniz sorduğunuz soruların farklı veri türlerini elde
+    etmek için yeterli olduğundan emin olunuz.
 
--   You can choose the data according to your interests or you can use
-    the data you used in other courses.
+-   Kullanacağınız veri setini kendi ilgi alanlarınızdan veya diğer
+    derslerde kullandığınız verilerden seçebilirsiniz.
 
--   The purpose of the term project is to apply the techniques we
-    learned in the class.
+-   Dönem projesinin amacı derste işlediğimiz tekniklerin
+    uygulanmasıdır.
 
--   The aim of the project is not to perform a detailed analysis.
-    Therefore, you do not need to calculate every statistics or plot
-    every possible graph for each variable.
+-   Projenin amacı detaylı bir analiz gerçekleştirmek değildir. Bu
+    yüzden her değişken için her istatistiği hesaplamanıza veya her
+    türlü grafiği çizdirmenize gerek yoktur.
 
--   The aim of the project should be to ask meaningful questions about
-    the data set you have and to provide meaningful answers to these
-    questions with data analysis.
+-   Projenin amacı elinizdeki veri seti ile alakalı anlamlı sorular
+    sormak ve veri analizi ile bu sorulara anlamlı cevaplar vermek
+    olmalıdır.
 
--   You do not need to apply all the statistical methods we learned in
-    the class. If you want, you can also use the methods that we did not
-    cover.
+-   Derste öğrendiğimiz tüm istatistiksel yöntemleri uygulamanıza gerek
+    yoktur. Analiziniz için en uygun yöntemin ne olduğuna siz karar
+    vermelisiniz. İsterseniz derste öğrenmediğimiz ama kullanmak
+    istediğiniz yöntemleri de kullanabilirsiniz, yani derste
+    öğrendiğimiz konularla sınırlı kalmak zorunda değilsiniz.
 
--   It is also useful to discuss the shortcomings of the methods you use
-    and how one can improve the analysis.
+-   Kullandığınız yöntemlerin eksik yanlarını ve analizin nasıl
+    geliştirileceğini tartışmanız da faydalı olacaktır.
 
--   You should discuss the reliability and validity issues related to
-    your data and the appropriateness of the statistical analysis to
-    this data.
+-   Veriniz ile alakalı güvenirlik ve geçerlilik konuları yanında
+    istatistiki analizinizin bu veriye uygunluğunu tartışmanız
+    gerekmektedir.
 
--   Do not visualize all of your data with a single graph. You need to
-    create various graphs with your data.
+-   Verinizin tümünü tek bir grafik ile görselleştirmeyin. Veriniz ile
+    çeşitli görseller oluşturmanız gerekmektedir.
 
--   Do not forget that a single well-prepared graph with attention to
-    detail is better than a lot of poorly prepared graphs.
+-   İyi hazırlanmış ve detaylara dikkat edilen tek bir grafiğin kötü
+    hazırlanmış çok fazla grafikten daha iyi olduğunu unutmayınız.
 
--   It doesn’t matter which additional packages you use, but you must
-    use the `tidyverse` packages.
+-   Hangi ek paketleri kullandığınız önemli değildir fakat `tidyverse`
+    paketlerini kullanmanız gerekmektedir. [Tidyverse
+    Paketleri](https://www.tidyverse.org/packages/). Bu paketlerin
+    hepsini kullanmanız gerekmemektedir. Örneğin, Web API ile alakalı
+    işler yapmıyorsanız `httr` paketini kullanmanıza gerek yok fakat
+    verinizi Excel dosyasından RStudio’ya aktarıyorsanız `readxl`
+    paketini kullanmanız gerekiyor.
 
--   Pay attention to spelling rules as much as possible. [The Elements
-    of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style) is a
-    great book and I highly recommend you to obtain a copy of this book.
-    This will be a great reference guide in your professional life.
+-   Metin yazımına ve imla kurallarına mümkün olduğunca dikkat ediniz.
 
--   All analysis must be done in RStudio.
+-   Tüm analizlerin RStudio’da yapılması gerekmektedir.
 
-## Data
+## Veri
 
--   To be successful in the project, it is important that the data set
-    is relatively small but the data is easily accessible and large
-    enough to explore multiple relationships.
+-   Projede başarılı olmak için veri setinin nispeten küçük fakat
+    verilerin kolayca erişilebilir ve birden çok ilişkinin
+    keşfedilebilmesi için yeterince büyük olması önemlidir.
 
--   **It is recommended that you have at least 50 observations and 10 to
-    20 variables in your data set.**
+-   Veri setinizde en az 50 gözlem ve 10 ila 20 değişken bulunması
+    tavsiye edilir. 10’dan az değişken sayısı ile analizinizin zor
+    olacağını düşünüyorum. 20’den fazla değişken ise çok fazla
+    olacağından üstesinden gelmek zor olabilir. Tavsiyem minimum 10
+    maksimum 20 değişken bulmanız. Lütfen “hocam ben 15 değişken buldum
+    uygun mu?” tarzı mesajlar atmayınız. 10-20 arası değişken sayıları
+    uygundur.
 
--   **It is recommended that the data set includes categorical
-    variables, discrete numeric variables and continuous numeric
-    variables.**
+-   Veri setinin kategorik değişkenleri, kesikli sayısal değişkenleri ve
+    sürekli sayısal değişkenleri içermesi tavsiye edilir.
 
--   Do not reuse the data sets used in the examples or assignments in
-    the class.
+-   Dersteki örneklerde veya ödevlerde kullanılan veri setlerini
+    projenizde yeniden kullanmayınız.
 
--   If you are having problems, seek help before it is too late.
+-   Eğer sorun yaşıyorsanız, çok geç olmadan yardım isteyiniz.
 
--   Below you can find links to some sites that may be of interest to
-    you:
+-   **Kaggle sitesinden bulduğunuz veriler kabul edilmeyecektir.**
+
+-   Aşağıda, ilginizi çekebilecek bazı sitelerin linklerini
+    bulabilirsiniz:
 
 <table>
 <colgroup>
@@ -92,7 +103,7 @@ Veritabanı</a></td>
 <td><a
 href="https://github.com/awesomedata/awesome-public-datasets">Awesome
 Public Datasets</a></td>
-<td>-</td>
+<td><a href=""></a></td>
 <td><a href="http://www.tuik.gov.tr/">TUIK</a></td>
 </tr>
 <tr class="odd">
@@ -150,204 +161,201 @@ href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a></td>
 </tbody>
 </table>
 
--   **I will not accept any data you find on [Kaggle
-    datasets](https://www.kaggle.com/datasets)**
+## Önemli Tarihler ve Uyarılar
 
-## Important Dates
+**Proje Önerisi ve Nihai Proje teslimi ekampus sisteminden zip dosyası
+yüklenmesi ve Github repo linki gönderilmesi şeklinde
+gerçekleştirilecektir. Sisteme zip dosyası yüklemezseniz ara sınav ve
+finale girmemiş sayılacaksınız.**
 
-**Project Proposal and Final Project submisson will be done by uploading
-a zip file to the ekampus system along with the Github repo link. If you
-do not upload a zip file to the system and do not provide a Github repo
-link, you will be deemed not to have entered the midterm and final
-exams.**
+**Mazeret (Bütünleme) Sınavınız hem Proje Önerisi (Proje) teslimi hem de
+ek bir Sınav şeklinde olacak.**
 
-**Your Make-Up Exam will be in the form of both a Project Proposal
-(Project) submission and an additional Exam.**
+1.  **Ara Sınav - Proje Önerisi Teslimi:** 16 Nisan 2023, 23:59
+2.  **Final Sınavı - Proje Teslimi:** İlan Edilecek
 
-1.  **Proposal Due:** 16 April 2023, 23:59
-2.  **Project Due:** TBA
+## Proje Önerisi
 
-## Project Proposal
+-   **Proje önerinizi (`ÖğrenciNo.zip` dosyası) İlan Edilecek kadar
+    *ekampus.ankara.edu.tr* sistemine yüklemeniz gerekmektedir.**
 
--   **You must upload your project folder (`YourStudentID.zip` file) to
-    *ekampus.ankara.edu.tr* until 16 April 2023.**
+-   Projede kullanmayı planladığınız veri setini `/data/` klasörüne
+    eklemeniz beklenmektedir.
 
--   You are expected to add the data set you plan to use into the
-    `/data/` folder.
+-   Projede kullanmayı planladığınız literatüre ait kaynakça bilgilerini
+    `biblio.bib` dosyasına eklemeniz beklenmektedir.
 
--   You are expected to add the bibliographic information of the
-    literature you plan to use into the `biblio.bib` file.
+-   Proje önerinizde veri analizi planınızı ve veri setinizi açıklamanız
+    beklenmektedir.
 
--   In your project proposal, you are expected to explain your data
-    analysis plan and data set.
+-   Proje öneriniz, projenizin giriş bölümü olmalıdır. Projenin nihai
+    teslimine, yani dönem sonuna, kadar giriş bölümü üzerinde değişiklik
+    yapmaya devam edebilirsiniz.
 
--   Your project proposal should be the introduction section of your
-    project. You can continue to make changes to the introduction
-    section until the final submission of the project, ie the end of the
-    term.
+-   **Bölüm 1 - Giriş:** Bu kısımda aşağıdaki noktaları açıklamanız
+    beklenmektedir.
 
--   **Section 1 - Introduction:** In this part, you are expected to
-    explain the following points.
+    -   Araştırma sorunuz ve veri setinizi nereden ve nasıl bulduğunuz,
 
-    -   Your research question and where & how you found the data set,
+    -   Veride yer alan gözlemler, değişkenler, vs.
 
-    -   Observations, variables, etc. included in the data.
+    -   Araştırma sorunuz ile alakalı literatür. Okuduğunuz makaleleri
+        (makale kelimesi **akademik** makaleler anlamına gelmektedir.
+        Blog yazıları, reddit postları veya gazete makaleleri gibi
+        makaleleri değil akademik dergilerde basılmış akademik
+        makaleleri ifade etmektedir) referans vererek kısaca tartışınız.
+        **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.**
+        Literatür taramasında **en az dört** makaleye atıf yapılması ve
+        bu makalelerden **en az ikisinin İngilizce** olması
+        beklenmektedir.
 
-    -   Literature relevant to your research question. Briefly discuss
-        the articles (the word article refers to **academic** articles,
-        not blog posts, not reddit posts, not newspaper articles but
-        **academic** articles that are published in academic journals)
-        you read by giving reference. **Do not summarize each article
-        individually under a separate title.** It is expected that you
-        cite at least six articles in the literature review.
+-   Proje öneriniz **2 sayfadan fazla olmamalıdır (Kaynakça hariç)**.
 
--   Your project proposal **should not be more than 2 pages (excluding
-    references)**.
-
-#### Grading
+#### Notlandırma
 
 <table>
 <colgroup>
-<col style="width: 79%" />
-<col style="width: 20%" />
+<col style="width: 81%" />
+<col style="width: 18%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Data</td>
-<td>30 points</td>
+<td>Veri</td>
+<td>30 puan</td>
 </tr>
 <tr class="even">
-<td>Project Proposal</td>
-<td>40 points</td>
+<td>Proje Önerisi</td>
+<td>40 puan</td>
 </tr>
 <tr class="odd">
-<td>Resources, organization, code quality, spelling</td>
-<td>30 points</td>
+<td>Kaynaklar, organizasyon, kod kalitesi, imla</td>
+<td>30 puan</td>
 </tr>
 <tr class="even">
-<td><strong>Total</strong></td>
-<td><strong>100 points</strong></td>
+<td><strong>Toplam</strong></td>
+<td><strong>100 puan</strong></td>
 </tr>
 </tbody>
 </table>
 
-## Project
+## Proje
 
--   **You must upload the final version of your project
-    (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until TBA.**
+-   **Projenizin son halini (`ÖğrenciNo.zip` dosyası) İlan Edilecek
+    kadar *ekampus.ankara.edu.tr* sistemine yüklemeniz gerekmektedir.**
 
--   In the final form of your project, you are expected to finish the
-    analysis that you promised in your proposal.
+-   Projenizin son halinde proje önerinizde yapmayı vaat ettiğiniz
+    analizi yapmış olmanız beklenmektedir.
 
-    -   **Section 2 - Data:** Summarize the content of your data with a
-        summary statistics table and provide information about the
-        variables included in the data.
+    -   **Bölüm 2 - Veri:** Verinizin içeriğini bir özet istatistik
+        tablosu ile özetleyiniz ve veride yer alan değişkenler hakkında
+        bilgi veriniz.
 
-    -   **Section 3 - Methods and Data Analysis:**
+    -   **Bölüm 3 - Yöntem ve Veri Analizi:**
 
-        -   Provide information about the outcome (dependent, *Y*)
-            variable and predictive (explanatory, *X*) variables that
-            you will use to answer your research question.
+        -   Araştırma sorunuzu yanıtlamak için kullanacağınız sonuç
+            (bağımlı, *Y*) değişkeni ve öngörücü (açıklayıcı, *X*)
+            değişkenler hakkında bilgi veriniz.
 
-        -   Provide information about the comparison groups you will
-            use, if any.
+        -   Varsa kullanacağınız karşılaştırma grupları hakkında bilgi
+            veriniz.
 
-        -   Perform a preliminary data analysis, including some summary
-            statistics and visualizations (graphs), as well as some
-            explanations to help you learn more about your data.
+        -   Verileriniz hakkında daha fazla bilgi edinmenize yardımcı
+            olacak açıklamaların yanı sıra özet istatistikler ve
+            görselleştirmeler (grafikler) de dahil olmak üzere ön keşif
+            niteliğinde veri analizi gerçekleştiriniz.
 
-        -   Provide information about the method(s) that you believe
-            will be useful in answering your questions.
+        -   Sorularınızı cevaplarken faydalı olacağına inandığınız
+            yöntem(ler) hakkında bilgi veriniz.
 
-        -   Provide information about the results of the methods you
-            used (eg regression results if you have used regression
-            analysis) and add the necessary tables.
+        -   Kullandığınız yöntemlerin sonuçları (örn. regresyon analizi
+            yapmışsanız regresyon sonucu) hakkında bilgi veriniz ve
+            gerekli tabloları ekleyiniz.
 
-    -   **Section 4 - Conclusion:** Summarize the results of your
-        analysis. Discuss to what extent your results responded to the
-        research question you identified at the beginning and how this
-        work could be improved in the future.
+    -   **Bölüm 4 - Sonuç:** Bu bölümde çalışmanızın sonuçlarını
+        özetleyiniz. Sonuçlarınızın başlangıçta belirlediğiniz araştırma
+        sorusuna ne derece cevap verdiğini ve ileride bu çalışmanın
+        nasıl geliştirilebileceğini tartışınız.
 
--   You are expected to write a one-page summary of your final project.
-    This summary should provide information about the data set you used,
-    your research questions, methodology, and findings.
+-   Projenizin son halinde bir sayfalık bir özet yazmanız
+    beklenmektedir. Bu özet, kullandığınız veri seti, araştırma
+    sorularınız, metodolojiniz ve bulgularınız hakkında bilgi
+    vermelidir.
 
--   The summary is worth 10 points, it will be evaluated according to
-    whether it follows the guidance given above and whether it is
-    concise but detailed.
+-   Özet 10 puan değerindedir, yukarıda yer alan yönlendirmeyi takip
+    edip etmediğine ve özlü ancak yeterince ayrıntılı olup olmadığına
+    göre değerlendirilecektir.
 
--   **Each section should not be more than 2 pages (excluding
-    references, tables and figures).**
+-   **Her bölüm 2 sayfadan fazla olmamalıdır (Kaynakça, tablolar ve
+    şekiller hariç).**
 
--   **All results presented in the project must be derived with the `R`
-    code.** The answers/results given without the `R` code will be
-    considered incomplete. If you perform calculations manually instead
-    of using `R` and then report results from those calculations, you
-    will not be able to receive points for them. All code reported in
-    your final project document should work properly. Please do not
-    include any code that causes error messages or is not related to
-    analysis.
+-   **Projede sunulan tüm sonuçların `R` kodu ile türetilmiş olması
+    gerekmektedir.** Sonucu oluşturan `R` kodu olmadan verilen
+    yanıtlar/sonuçlar eksik kabul edilecektir. `R` kullanmak yerine elle
+    hesaplamalar yaparsanız ve ardından hesaplamalardan sonuçları
+    bildirirseniz, bu hesaplamalar için puan alamayacaksınız. Nihai
+    proje belgenizde bildirilen tüm kodlar düzgün çalışmalıdır. Lütfen
+    hata mesajlarına neden olan veya analiz ile ilgili olmayan kodları
+    nihai belgeye eklemeyin.
 
-#### Grading
+#### Notlandırma
 
 <table>
 <colgroup>
-<col style="width: 79%" />
-<col style="width: 20%" />
+<col style="width: 81%" />
+<col style="width: 18%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Project</td>
-<td>50 points</td>
+<td>Proje</td>
+<td>50 puan</td>
 </tr>
 <tr class="even">
-<td>Summary</td>
-<td>10 points</td>
+<td>Özet</td>
+<td>10 puan</td>
 </tr>
 <tr class="odd">
-<td>Reproducibility</td>
-<td>20 points</td>
+<td>Yeniden Türetilebilirlik</td>
+<td>20 puan</td>
 </tr>
 <tr class="even">
-<td>Resources, organization, code quality, spelling</td>
-<td>20 points</td>
+<td>Kaynaklar, organizasyon, kod kalitesi, imla</td>
+<td>20 puan</td>
 </tr>
 <tr class="odd">
-<td><strong>Total</strong></td>
-<td><strong>100 points</strong></td>
+<td><strong>Toplam</strong></td>
+<td><strong>100 puan</strong></td>
 </tr>
 </tbody>
 </table>
 
-#### Grading Criteria
+#### Notlandırma Kriterleri
 
-Your project will be evaluated according to the following criteria:
+Projeniz aşağıdaki kriterlere göre değerlendirilecektir:
 
--   *Content* - What is the quality of the research and/or policy
-    question and how do the data relate to those questions?
--   *Accuracy* - Are statistical procedures correctly applied and
-    explained?
--   *Writing and Presentation* - What is the quality of statistical
-    presentation, writing and explanations?
--   *Creativity and Critical Thinking* - Has the project been carefully
-    thought out? Are the limitations carefully considered? Does it
-    appear that time and effort went into the planning and
-    implementation of the project?
+-   *İçerik* - Araştırma ve/veya politika sorusunun kalitesi ve
+    verilerin bu sorularla ilgisi nedir?
+-   *Doğruluk* - İstatistiksel prosedürler doğru bir şekilde uygulanıyor
+    ve açıklanıyor mu?
+-   *Yazma ve Sunum* - İstatistiksel sunum, yazı ve açıklamaların
+    kalitesi nedir?
+-   *Yaratıcılık ve Eleştirel Düşünce* - Proje dikkatlice düşünülmüş mü?
+    Sınırlamalar dikkatlice değerlendiriliyor mu? Görünüşe göre projenin
+    planlanması ve uygulanması için zaman ve çaba harcanmış mı?
 
-## Folder Organization
+## Klasör Organizasyonu
 
-Your project folder should have the following folders and files:
+Proje reponuzda aşağıdaki klasörler ve dosyalar olmalıdır:
 
--   `/bibliography/`: Bibliography Folder
--   `/bibliography/biblio.bib`: Bibliography File
--   `/csl/`: Bibliography Style Folder
--   `/data/`: The Folder Containing the Data Set (CSV, RDS, etc.)
--   `/proposal/`: Project Proposal Folder
--   `/proposal/proposal.Rmd` + `/proposal/proposal.pdf`: Project
-    Proposal Text
--   `README.Rmd` + `README.md`: README Files
--   `proposal.Rproj`: RStudio Proposal File
+-   `/bibliography/`: Kaynakça Klasörü
+-   `/bibliography/biblio.bib`: Kaynakça Dosyası
+-   `/csl/`: Kaynakça Stil Klasörü
+-   `/data/`: CSV, RDS, vs. Formatındaki Veri Setinin Yer aldığı Klasör
+-   `/arasinav/`: Proje Önerisi Klasörü
+-   `/arasinav/arasinav.Rmd` + `/arasinav/arasinav.pdf`: Proje Önerisi
+    Metni
+-   `README.Rmd` + `README.md`: README Dosyaları
+-   `arasinav.Rproj`: RStudio Proposal Dosyası
 
-Since style and form are important in this project, please make sure
-everything looks good and that your data and code are correctly
-formatted.
+Bu projede stil ve biçim önemli olduğundan, lütfen her şeyin iyi
+göründüğünden, verilerinizin ve kodunuzun doğru biçimlendirildiğinden
+emin olunuz.
